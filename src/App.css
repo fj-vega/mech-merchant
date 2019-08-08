@@ -1,0 +1,70 @@
+:root {
+  --main-black: #333;
+  --main-blue: #2a2a72;
+  --light-blue: #009ffd;
+  --main-white: #fff;
+  --main-dark: #232528;
+  --main-yellow: #ffa400;
+}
+
+body {
+  /* Overwriting BS styling */
+  font-family: 'Oswald', sans-serif !important;
+  background-color: var(--main-white) !important;
+  color: var(--main-dark) !important;
+}
+
+.page-content {
+  /* Considering footer size to push it */
+  min-height: calc(100vh - 106px);
+  margin-top: 50px !important;
+}
+
+.homepage {
+  background-color: var(--main-black);
+  color: var(--main-white);
+}
+
+.text-title {
+  font-family: 'EB Garamond', serif;
+  letter-spacing: 0.3rem;
+}
+
+.text-blue {
+  color: var(--main-blue);
+}
+
+.text-bright {
+  color: var(--light-blue);
+}
+
+.bg-black {
+  background-color: var(--main-black) !important;
+}
+
+.card {
+  border: 1px solid rgba(0, 0, 0, 0.3) !important;
+}
+
+.img-container {
+  background-color: #F1F1F1;
+}
+
+.btn-black {
+  background: transparent;
+  font-size: 0.8rem !important;
+  color: var(--main-dark);
+  border-radius: 0 !important;
+  border: 0.1rem solid var(--main-dark) !important;
+}
+
+.btn-black:hover {
+  background: var(--main-dark) !important;
+  color: var(--main-white) !important;
+}
+
+.cart-item {
+  cursor: pointer;
+  font-size: 1.3rem;
+  color: var(--main-yellow);
+}
