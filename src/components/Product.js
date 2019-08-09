@@ -11,7 +11,7 @@ export default ({ productId }) => (
         const { id, title, img, price, inCart } = value.products.find(product => product.id === productId);
 
         return (
-          <ProductWrapper className="col-9 col-md-6 col-lg-3 my-3">
+          <ProductWrapper className="col-12 col-md-6 col-lg-3 my-3">
             <div className="card h-100">
               <div
                 className="img-container p-3 h-100"
